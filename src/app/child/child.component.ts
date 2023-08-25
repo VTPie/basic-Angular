@@ -1,11 +1,11 @@
-import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, Component, ContentChild, DoCheck, ElementRef, Input, OnChanges, OnInit, SimpleChanges, ViewChild } from '@angular/core';
+import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, Component, ContentChild, DoCheck, ElementRef, Input, OnChanges, OnDestroy, OnInit, SimpleChanges, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-child',
   templateUrl: './child.component.html',
   styleUrls: ['./child.component.scss']
 })
-export class ChildComponent implements OnChanges, OnInit, DoCheck, AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked {
+export class ChildComponent implements OnChanges, OnInit, DoCheck, AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy {
   //@Input() cho phép truyền dữ liệu từ component cha xuống component con.
   @Input() userName = '';
 
@@ -46,5 +46,10 @@ export class ChildComponent implements OnChanges, OnInit, DoCheck, AfterContentI
   //ngAfterViewChecked chạy lần đầu sau ngAfterViewInit và sau mỗi ngAfterContentChecked tiếp theo.
   ngAfterViewChecked() {
     console.log('ngAfterViewChecked triggered')
+  }
+
+  //ngOnDestroy chỉ được gọi 1 lần duy nhất trong toàn bộ lifecycle component, ngay trước khi Angular phá hủy nó.
+  ngOnDestroy(): void {
+    console.log('Child component is destroyed!');
   }
 }

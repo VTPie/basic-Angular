@@ -17,4 +17,9 @@ export class ParentComponent implements OnInit {
   ngOnInit() {
     console.log('ngOnInit from the parent component');
   }
+
+  isChildDestroyed = false;
+  destroy() {
+    this.isChildDestroyed = true;
+  }
 }
