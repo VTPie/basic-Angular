@@ -125,5 +125,20 @@
         transform="translate(-147.025 -140.939)" fill="#f5f5f5" />
     </svg>
   </div>
-  <app-parent></app-parent>
+
+  <!-- Component LifeCycle -->
+  <!-- <app-parent></app-parent> -->
+
+  <!-- View Encapsulation -->
+  <!-- None: Angular sẽ thêm styles cho component này dưới dạng global styles vào <head>,
+    làm cho styles này xuất hiện trong toàn bộ ứng dụng. -->
+  <app-none-encapsulation></app-none-encapsulation>
+  <p>-----------------</p>
+  <!-- Emulated: tương tự None, nhưng kèm theo "scoped" 
+    làm cho styles chỉ áp dụng với các component tương ứng và ghi đè styles của None. -->
+  <app-emulated-encapsulation></app-emulated-encapsulation>
+  <p>-----------------</p>
+  <!-- Shadow DOM: Angular sẽ thêm styles cho component này vào Shadow DOM, 
+    vì vậy chúng không hiển thị bên ngoài Shadow DOM và ghi đè styles của None -->
+  <app-shadow-encapsulation></app-shadow-encapsulation>
 </div>
