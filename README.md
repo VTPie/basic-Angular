@@ -34,3 +34,7 @@ Demo 3: Intercept input property changes with ngOnChanges()
 Demo 4: Parent listens for child event
     Component list: voter, votetaker
     <app-votetaker></app-votetaker>
+
+Demo 5: Parent interacts with child using local variable
+    Component list: countdown-timer, countdown-parent
+    <app-countdown-parent></app-countdown-parent>
