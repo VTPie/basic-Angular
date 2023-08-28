@@ -42,3 +42,7 @@ Demo 5: Parent interacts with child using local variable
 Demo 6: Parent calls an @ViewChild()
     Component list: countdown-timer, countdown-parent-v2
     <app-countdown-parent-v2></app-countdown-parent-v2>
+
+Demo 7: Parent and children communicate using a service
+    Component list: astronaut, misson-control
+    <app-mission-control></app-mission-control>
