@@ -9,6 +9,8 @@ import { EmulatedEncapsulationComponent } from './emulated-encapsulation/emulate
 import { ShadowEncapsulationComponent } from './shadow-encapsulation/shadow-encapsulation.component';
 import { HeroChildComponent } from './hero-child/hero-child.component';
 import { HeroParentComponent } from './hero-parent/hero-parent.component';
+import { NameChildComponent } from './name-child/name-child.component';
+import { NameParentComponent } from './name-parent/name-parent.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { HeroParentComponent } from './hero-parent/hero-parent.component';
     EmulatedEncapsulationComponent,
     ShadowEncapsulationComponent,
     HeroChildComponent,
-    HeroParentComponent
+    HeroParentComponent,
+    NameChildComponent,
+    NameParentComponent
   ],
   imports: [
     BrowserModule
