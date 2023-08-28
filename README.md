@@ -53,3 +53,4 @@
     Demo 2: Sending data to a parent component
         Component list: item-output, container-output
         <app-container-output></app-container-output>
+

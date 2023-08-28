@@ -6,7 +6,8 @@ import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
   styleUrls: ['./item-detail.component.scss']
 })
 export class ItemDetailComponent implements OnChanges {
-  @Input() item = '';
+  //Cấu hình Input là bắt buộc, nếu component cha không truyền Input sẽ xảy ra lỗi.
+  @Input({ required: true }) item!: string;
   ngOnChanges(changes: SimpleChanges): void {
     console.log('ngOnChanges triggered', changes);
   }
