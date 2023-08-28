@@ -46,3 +46,10 @@
         <app-mission-control></app-mission-control>
 
 ## Lesson 4: Sharing data between child and parent directives and components
+    Demo 1: Sending data to a child component
+        Component list: item-detail, container-detail
+        <app-container-detail></app-container-detail>
+
+    Demo 2: Sending data to a parent component
+        Component list: item-output, container-output
+        <app-container-output></app-container-output>

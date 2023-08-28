@@ -22,6 +22,8 @@ import { MissionControlComponent } from './mission-control/mission-control.compo
 import { AstronautComponent } from './astronaut/astronaut.component';
 import { ItemDetailComponent } from './item-detail/item-detail.component';
 import { ContainerDetailComponent } from './container-detail/container-detail.component';
+import { ItemOutputComponent } from './item-output/item-output.component';
+import { ContainerOutputComponent } from './container-output/container-output.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { ContainerDetailComponent } from './container-detail/container-detail.co
     MissionControlComponent,
     AstronautComponent,
     ItemDetailComponent,
-    ContainerDetailComponent
+    ContainerDetailComponent,
+    ItemOutputComponent,
+    ContainerOutputComponent
   ],
   imports: [
     BrowserModule
