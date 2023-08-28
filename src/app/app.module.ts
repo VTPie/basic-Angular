@@ -20,6 +20,8 @@ import { CountdownParentComponent } from './countdown-parent/countdown-parent.co
 import { CountdownParentV2Component } from './countdown-parent-v2/countdown-parent-v2.component';
 import { MissionControlComponent } from './mission-control/mission-control.component';
 import { AstronautComponent } from './astronaut/astronaut.component';
+import { ItemDetailComponent } from './item-detail/item-detail.component';
+import { ContainerDetailComponent } from './container-detail/container-detail.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { AstronautComponent } from './astronaut/astronaut.component';
     CountdownParentComponent,
     CountdownParentV2Component,
     MissionControlComponent,
-    AstronautComponent
+    AstronautComponent,
+    ItemDetailComponent,
+    ContainerDetailComponent
   ],
   imports: [
     BrowserModule
