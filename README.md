@@ -57,3 +57,7 @@
     Demo 1: Single-slot content projection
         Component list: zippy-basic, zippy-container
         <app-zippy-container></app-zippy-container>
+
+    Demo 2: Multi-slot content projection
+        Component list: zippy-multislot, zippy-multislot-container
+        <app-zippy-multislot-container></app-zippy-multislot-container>

@@ -26,6 +26,8 @@ import { ItemOutputComponent } from './item-output/item-output.component';
 import { ContainerOutputComponent } from './container-output/container-output.component';
 import { ZippyBasicComponent } from './zippy-basic/zippy-basic.component';
 import { ZippyContainerComponent } from './zippy-container/zippy-container.component';
+import { ZippyMultislotComponent } from './zippy-multislot/zippy-multislot.component';
+import { ZippyMultislotContainerComponent } from './zippy-multislot-container/zippy-multislot-container.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +55,9 @@ import { ZippyContainerComponent } from './zippy-container/zippy-container.compo
     ItemOutputComponent,
     ContainerOutputComponent,
     ZippyBasicComponent,
-    ZippyContainerComponent
+    ZippyContainerComponent,
+    ZippyMultislotComponent,
+    ZippyMultislotContainerComponent
   ],
   imports: [
     BrowserModule
