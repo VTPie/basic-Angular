@@ -38,3 +38,7 @@ Demo 4: Parent listens for child event
 Demo 5: Parent interacts with child using local variable
     Component list: countdown-timer, countdown-parent
     <app-countdown-parent></app-countdown-parent>
+
+Demo 6: Parent calls an @ViewChild()
+    Component list: countdown-timer, countdown-parent-v2
+    <app-countdown-parent-v2></app-countdown-parent-v2>
