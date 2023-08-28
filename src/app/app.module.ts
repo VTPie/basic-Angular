@@ -24,6 +24,8 @@ import { ItemDetailComponent } from './item-detail/item-detail.component';
 import { ContainerDetailComponent } from './container-detail/container-detail.component';
 import { ItemOutputComponent } from './item-output/item-output.component';
 import { ContainerOutputComponent } from './container-output/container-output.component';
+import { ZippyBasicComponent } from './zippy-basic/zippy-basic.component';
+import { ZippyContainerComponent } from './zippy-container/zippy-container.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +51,9 @@ import { ContainerOutputComponent } from './container-output/container-output.co
     ItemDetailComponent,
     ContainerDetailComponent,
     ItemOutputComponent,
-    ContainerOutputComponent
+    ContainerOutputComponent,
+    ZippyBasicComponent,
+    ZippyContainerComponent
   ],
   imports: [
     BrowserModule
