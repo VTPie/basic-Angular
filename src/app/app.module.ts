@@ -32,6 +32,7 @@ import { ItemProjectedComponent } from './item-projected/item-projected.componen
 import { ContainerProjectComponent } from './container-project/container-project.component';
 import { PropBindingComponent } from './prop-binding/prop-binding.component';
 import { AttBindingComponent } from './att-binding/att-binding.component';
+import { ClassBindingComponent } from './class-binding/class-binding.component';
 
 
 @NgModule({
@@ -67,6 +68,7 @@ import { AttBindingComponent } from './att-binding/att-binding.component';
     ContainerProjectComponent,
     PropBindingComponent,
     AttBindingComponent,
+    ClassBindingComponent,
   ],
   imports: [
     BrowserModule

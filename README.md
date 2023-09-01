@@ -82,3 +82,7 @@
     Demo 2: Attribute binding
         Component list: att-binding
         <app-att-binding></app-att-binding>
+
+    Demo 3: Class binding
+        Component list: class-binding
+        <app-class-binding></app-class-binding>
