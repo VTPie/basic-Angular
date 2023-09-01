@@ -33,6 +33,7 @@ import { ContainerProjectComponent } from './container-project/container-project
 import { PropBindingComponent } from './prop-binding/prop-binding.component';
 import { AttBindingComponent } from './att-binding/att-binding.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
+import { StyleBindingComponent } from './style-binding/style-binding.component';
 
 
 @NgModule({
@@ -69,6 +70,7 @@ import { ClassBindingComponent } from './class-binding/class-binding.component';
     PropBindingComponent,
     AttBindingComponent,
     ClassBindingComponent,
+    StyleBindingComponent,
   ],
   imports: [
     BrowserModule

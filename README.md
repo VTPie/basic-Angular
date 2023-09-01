@@ -86,3 +86,7 @@
     Demo 3: Class binding
         Component list: class-binding
         <app-class-binding></app-class-binding>
+
+    Demo 4: Style binding
+        Component list: style-binding
+        <app-style-binding></app-style-binding>
