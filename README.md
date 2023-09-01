@@ -90,3 +90,11 @@
     Demo 4: Style binding
         Component list: style-binding
         <app-style-binding></app-style-binding>
+
+    Demo 5: Event binding
+        Component list: event-binding
+        <app-event-binding></app-event-binding>
+
+    Demo 6: Two-way binding
+        Component list: sizer, sizer-cont
+        <app-sizer-cont></app-sizer-cont>

@@ -35,6 +35,8 @@ import { AttBindingComponent } from './att-binding/att-binding.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { SizerComponent } from './sizer/sizer.component';
+import { SizerContComponent } from './sizer-cont/sizer-cont.component';
 
 
 @NgModule({
@@ -73,6 +75,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     ClassBindingComponent,
     StyleBindingComponent,
     EventBindingComponent,
+    SizerComponent,
+    SizerContComponent,
   ],
   imports: [
     BrowserModule
