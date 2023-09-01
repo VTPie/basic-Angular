@@ -98,3 +98,5 @@
     Demo 6: Two-way binding
         Component list: sizer, sizer-cont
         <app-sizer-cont></app-sizer-cont>
+## Lesson 9: Pipes
+

@@ -37,7 +37,7 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { SizerComponent } from './sizer/sizer.component';
 import { SizerContComponent } from './sizer-cont/sizer-cont.component';
-
+import { PipesDemoComponent } from './pipes-demo/pipes-demo.component';
 
 @NgModule({
   declarations: [
@@ -77,6 +77,7 @@ import { SizerContComponent } from './sizer-cont/sizer-cont.component';
     EventBindingComponent,
     SizerComponent,
     SizerContComponent,
+    PipesDemoComponent,
   ],
   imports: [
     BrowserModule
