@@ -30,6 +30,8 @@ import { ZippyMultislotComponent } from './zippy-multislot/zippy-multislot.compo
 import { ZippyMultislotContainerComponent } from './zippy-multislot-container/zippy-multislot-container.component';
 import { ItemProjectedComponent } from './item-projected/item-projected.component';
 import { ContainerProjectComponent } from './container-project/container-project.component';
+import { PropBindingComponent } from './prop-binding/prop-binding.component';
+
 
 @NgModule({
   declarations: [
@@ -61,7 +63,8 @@ import { ContainerProjectComponent } from './container-project/container-project
     ZippyMultislotComponent,
     ZippyMultislotContainerComponent,
     ItemProjectedComponent,
-    ContainerProjectComponent
+    ContainerProjectComponent,
+    PropBindingComponent,
   ],
   imports: [
     BrowserModule

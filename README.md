@@ -1,9 +1,9 @@
-## Lesson 1: Component LifeCycle
+## Lesson 1: Components - Component LifeCycle
 
     Component list: child, parent
     Demo: 
         <app-parent></app-parent>
-## Lesson 2: View Encapsulation
+## Lesson 2: Components - View Encapsulation
 
     Component list: none-encapsulation, emulated-encapsulation, shadow-encapsulation
     Demo: 
@@ -12,7 +12,7 @@
         <app-emulated-encapsulation></app-emulated-encapsulation>
         <p>-----------------</p>
         <app-shadow-encapsulation></app-shadow-encapsulation>
-## Lesson 3: Component Interaction
+## Lesson 3: Components - Component Interaction
 
     Demo 1: Pass data from parent to child with input binding
         Component list: hero-child, hero-parent
@@ -41,7 +41,7 @@
     Demo 7: Parent and children communicate using a service (not clear)
         Component list: astronaut, misson-control
         <app-mission-control></app-mission-control>
-## Lesson 4: Sharing data between child and parent directives and components
+## Lesson 4: Components - Sharing data between child and parent directives and components
     
     Demo 1: Sending data to a child component
         Component list: item-detail, container-detail
@@ -50,7 +50,7 @@
     Demo 2: Sending data to a parent component
         Component list: item-output, container-output
         <app-container-output></app-container-output>
-## Lesson 5: Content projection
+## Lesson 5: Components - Content projection
 
     Demo 1: Single-slot content projection
         Component list: zippy-basic, zippy-container
@@ -63,9 +63,17 @@
     Demo 3: Conditional content projection
         Component list: item-projected, container-project
         <app-container-project></app-container-project>
-## Lesson 6: Displaying values with interpolation
+## Lesson 6: Templates - Displaying values with interpolation
     
     Component list: child, parent
     Demo: 
         <app-parent></app-parent>
-## Lesson 7: Handle event
+## Lesson 7: Templates - Template statements
+
+    Component list: child, parent
+    Demo: 
+        <app-parent></app-parent>
+## Lesson 8: Templates - Binding
+
+    Demo 1: Property binding
+        Component list: 
