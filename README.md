@@ -76,4 +76,9 @@
 ## Lesson 8: Templates - Binding
 
     Demo 1: Property binding
-        Component list: 
+        Component list: prop-binding
+        <app-prop-binding></app-prop-binding>
+    
+    Demo 2: Attribute binding
+        Component list: att-binding
+        <app-att-binding></app-att-binding>

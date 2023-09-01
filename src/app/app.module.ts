@@ -31,6 +31,7 @@ import { ZippyMultislotContainerComponent } from './zippy-multislot-container/zi
 import { ItemProjectedComponent } from './item-projected/item-projected.component';
 import { ContainerProjectComponent } from './container-project/container-project.component';
 import { PropBindingComponent } from './prop-binding/prop-binding.component';
+import { AttBindingComponent } from './att-binding/att-binding.component';
 
 
 @NgModule({
@@ -65,6 +66,7 @@ import { PropBindingComponent } from './prop-binding/prop-binding.component';
     ItemProjectedComponent,
     ContainerProjectComponent,
     PropBindingComponent,
+    AttBindingComponent,
   ],
   imports: [
     BrowserModule
