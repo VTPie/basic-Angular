@@ -109,7 +109,9 @@
         <app-attr-drt-bi></app-attr-drt-bi>
 
     Demo 2: Built-in structural directives
-
+        Component list: struc-drt-bi
+        <app-struc-drt-bi></app-struc-drt-bi>
+        
     Demo 3: Attribute directives
 
     Demo 4: Structural directives
