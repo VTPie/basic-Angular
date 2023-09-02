@@ -100,3 +100,17 @@
         <app-sizer-cont></app-sizer-cont>
 ## Lesson 9: Pipes
 
+    Component list: pipes-demo
+    <app-pipes-demo></app-pipes-demo>
+## Lesson 10: Directives
+
+    Demo 1: Built-in attribute directives
+        Component list: attr-drt-bi
+        <app-attr-drt-bi></app-attr-drt-bi>
+
+    Demo 2: Built-in structural directives
+
+    Demo 3: Attribute directives
+
+    Demo 4: Structural directives
+

@@ -1,0 +1,16 @@
+<div [ngClass]="isSpecial ? 'special' : ''">Using NgClass with an expression</div>
+<button (click)="updateState()">Update</button>
+<hr>
+<div [ngClass]="currentClasses">Using NgClass with a method</div>
+<button (click)="setCurrentClasses()">Update</button>
+<hr>
+<div [ngStyle]="currentStyles">Setting inline styles with NgStyle</div>
+<button (click)="setCurrentStyles()">Update</button>
+<hr>
+<div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" [(ngModel)]="username">
+</div>
+<div>
+    <p>Username entered: {{ username }}</p>
+</div>

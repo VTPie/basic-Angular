@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
@@ -38,6 +38,7 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
 import { SizerComponent } from './sizer/sizer.component';
 import { SizerContComponent } from './sizer-cont/sizer-cont.component';
 import { PipesDemoComponent } from './pipes-demo/pipes-demo.component';
+import { AttrDrtBiComponent } from './attr-drt-bi/attr-drt-bi.component';
 
 @NgModule({
   declarations: [
@@ -78,9 +79,11 @@ import { PipesDemoComponent } from './pipes-demo/pipes-demo.component';
     SizerComponent,
     SizerContComponent,
     PipesDemoComponent,
+    AttrDrtBiComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
