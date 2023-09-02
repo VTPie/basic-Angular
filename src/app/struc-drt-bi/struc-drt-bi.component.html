@@ -1,0 +1,16 @@
+<!-- Adding or removing an element with NgIf -->
+<app-child *ngIf="isActive" [userName]="userName"></app-child>
+<br>
+<button (click)="updateState()">Update</button>
+
+<!-- Listing items with NgFor -->
+<ul>
+    <li *ngFor="let item of items">{{item}}</li>
+</ul>
+
+<!-- Switching cases with NgSwitch -->
+<div [ngSwitch]="caseState">
+    <app-parent *ngSwitchCase="true"></app-parent>
+    <app-shadow-encapsulation *ngSwitchCase="false"></app-shadow-encapsulation>
+</div>
+<button (click)="updateState2()">Update</button>

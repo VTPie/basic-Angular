@@ -39,6 +39,7 @@ import { SizerComponent } from './sizer/sizer.component';
 import { SizerContComponent } from './sizer-cont/sizer-cont.component';
 import { PipesDemoComponent } from './pipes-demo/pipes-demo.component';
 import { AttrDrtBiComponent } from './attr-drt-bi/attr-drt-bi.component';
+import { StrucDrtBiComponent } from './struc-drt-bi/struc-drt-bi.component';
 
 @NgModule({
   declarations: [
@@ -80,6 +81,7 @@ import { AttrDrtBiComponent } from './attr-drt-bi/attr-drt-bi.component';
     SizerContComponent,
     PipesDemoComponent,
     AttrDrtBiComponent,
+    StrucDrtBiComponent,
   ],
   imports: [
     BrowserModule,
