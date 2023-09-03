@@ -113,6 +113,10 @@
         <app-struc-drt-bi></app-struc-drt-bi>
         
     Demo 3: Attribute directives
-
+        Component list: attr-drt, _drt-highlight
+        <app-attr-drt></app-attr-drt>
+        
     Demo 4: Structural directives
+        Component list: struc-drt, _drt-unless
+        <app-struc-drt></app-struc-drt>
 

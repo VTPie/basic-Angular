@@ -42,6 +42,8 @@ import { AttrDrtBiComponent } from './attr-drt-bi/attr-drt-bi.component';
 import { StrucDrtBiComponent } from './struc-drt-bi/struc-drt-bi.component';
 import { HighlightDirective } from './_drt-highlight/highlight.directive';
 import { AttrDrtComponent } from './attr-drt/attr-drt.component';
+import { UnlessDirective } from './_drt-unless/unless.directive';
+import { StrucDrtComponent } from './struc-drt/struc-drt.component';
 
 @NgModule({
   declarations: [
@@ -86,6 +88,8 @@ import { AttrDrtComponent } from './attr-drt/attr-drt.component';
     StrucDrtBiComponent,
     HighlightDirective,
     AttrDrtComponent,
+    UnlessDirective,
+    StrucDrtComponent,
   ],
   imports: [
     BrowserModule,
