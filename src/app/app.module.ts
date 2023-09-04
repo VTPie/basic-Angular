@@ -44,6 +44,13 @@ import { HighlightDirective } from './_drt-highlight/highlight.directive';
 import { AttrDrtComponent } from './attr-drt/attr-drt.component';
 import { UnlessDirective } from './_drt-unless/unless.directive';
 import { StrucDrtComponent } from './struc-drt/struc-drt.component';
+import { AppRoutingModule } from './app-routing.module';
+import { RoutingOneComponent } from './routing-one/routing-one.component';
+import { RoutingTwoComponent } from './routing-two/routing-two.component';
+import { SimpleNavComponent } from './simple-nav/simple-nav.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { Child1RoutingComponent } from './child1-routing/child1-routing.component';
+import { Child2RoutingComponent } from './child2-routing/child2-routing.component';
 
 @NgModule({
   declarations: [
@@ -90,9 +97,16 @@ import { StrucDrtComponent } from './struc-drt/struc-drt.component';
     AttrDrtComponent,
     UnlessDirective,
     StrucDrtComponent,
+    RoutingOneComponent,
+    RoutingTwoComponent,
+    SimpleNavComponent,
+    NotFoundComponent,
+    Child1RoutingComponent,
+    Child2RoutingComponent,
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     FormsModule,
   ],
   providers: [],
