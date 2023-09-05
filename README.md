@@ -130,4 +130,7 @@
         Component list: name-editor
         <app-name-editor></app-name-editor>
 
-    Demo 2: Grouping form controls
+    Demo 2: Grouping form controls & Creating nested form groups
+        Component list: profile-editor
+        <app-profile-editor></app-profile-editor>
+
