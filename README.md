@@ -134,3 +134,6 @@
         Component list: profile-editor
         <app-profile-editor></app-profile-editor>
 
+    Demo 3: Using the FormBuilder service to generate controls
+        Component list: new-profile-editor
+        <new-app-profile-editor></new-app-profile-editor>

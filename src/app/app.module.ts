@@ -54,6 +54,7 @@ import { Child2RoutingComponent } from './child2-routing/child2-routing.componen
 import { ReactiveFormsModule } from '@angular/forms';
 import { NameEditorComponent } from './name-editor/name-editor.component';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
+import { NewProfileEditorComponent } from './new-profile-editor/new-profile-editor.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -107,6 +108,7 @@ import { ProfileEditorComponent } from './profile-editor/profile-editor.componen
     Child2RoutingComponent,
     NameEditorComponent,
     ProfileEditorComponent,
+    NewProfileEditorComponent,
   ],
   imports: [
     BrowserModule,
