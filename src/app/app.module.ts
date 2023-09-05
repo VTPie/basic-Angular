@@ -53,6 +53,7 @@ import { Child1RoutingComponent } from './child1-routing/child1-routing.componen
 import { Child2RoutingComponent } from './child2-routing/child2-routing.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NameEditorComponent } from './name-editor/name-editor.component';
+import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -105,6 +106,7 @@ import { NameEditorComponent } from './name-editor/name-editor.component';
     Child1RoutingComponent,
     Child2RoutingComponent,
     NameEditorComponent,
+    ProfileEditorComponent,
   ],
   imports: [
     BrowserModule,
