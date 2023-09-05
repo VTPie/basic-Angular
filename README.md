@@ -122,4 +122,12 @@
 ## Lesson 11: Routing and Navigation
 
     Component list: not-found, routing-one, routing-two, simple-nav, child1-routing, child2-routing
-    
+    <app-simple-nav></app-simple-nav>
+    <router-outlet></router-outlet>
+## Lesson 12: Forms
+
+    Demo 1: Adding a basic form control & Replacing a form control value
+        Component list: name-editor
+        <app-name-editor></app-name-editor>
+
+    Demo 2: Grouping form controls
