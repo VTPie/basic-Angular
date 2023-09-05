@@ -137,3 +137,11 @@
     Demo 3: Using the FormBuilder service to generate controls
         Component list: new-profile-editor
         <new-app-profile-editor></new-app-profile-editor>
+
+    Demo 4: Built-in validator function
+        Component list: hero-form-reactive
+        <app-hero-form-reactive></app-hero-form-reactive>
+
+    Demo 5: Custom validator function
+        Component list: hero-form-reactive, _drt-forbidden-name
+        <app-hero-form-reactive></app-hero-form-reactive>
