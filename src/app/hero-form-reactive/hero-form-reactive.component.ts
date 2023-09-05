@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-
+import { forbiddenNameValidator } from '../_drt-forbidden-name/forbidden-name.directive';
 @Component({
   selector: 'app-hero-form-reactive',
   templateUrl: './hero-form-reactive.component.html',
@@ -17,6 +17,7 @@ export class HeroFormReactiveComponent {
       name: new FormControl(this.hero.name, [
         Validators.required,
         Validators.minLength(4),
+        forbiddenNameValidator(/admin/i)
       ]),
     })
   }
