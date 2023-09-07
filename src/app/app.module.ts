@@ -56,6 +56,7 @@ import { NameEditorComponent } from './name-editor/name-editor.component';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 import { NewProfileEditorComponent } from './new-profile-editor/new-profile-editor.component';
 import { HeroFormReactiveComponent } from './hero-form-reactive/hero-form-reactive.component';
+import { LifecycleHookComponent } from './lifecycle-hook/lifecycle-hook.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -111,6 +112,7 @@ import { HeroFormReactiveComponent } from './hero-form-reactive/hero-form-reacti
     ProfileEditorComponent,
     NewProfileEditorComponent,
     HeroFormReactiveComponent,
+    LifecycleHookComponent,
   ],
   imports: [
     BrowserModule,

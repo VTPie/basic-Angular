@@ -3,6 +3,8 @@
     Component list: child, parent
     Demo: 
         <app-parent></app-parent>
+
+    Advanced demo:
 ## Lesson 2: Components - View Encapsulation
 
     Component list: none-encapsulation, emulated-encapsulation, shadow-encapsulation
